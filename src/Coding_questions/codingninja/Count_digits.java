@@ -1,4 +1,4 @@
-package codingninja;
+package Coding_questions.codingninja;
 
 public class Count_digits {
     public static int countDigits(int n){

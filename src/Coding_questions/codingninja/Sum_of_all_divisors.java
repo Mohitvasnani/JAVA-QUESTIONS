@@ -1,4 +1,4 @@
-package codingninja;
+package Coding_questions.codingninja;
 
 public class Sum_of_all_divisors {
     public static void main(String[] args) {

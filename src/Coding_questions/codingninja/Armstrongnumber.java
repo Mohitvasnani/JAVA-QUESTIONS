@@ -1,4 +1,4 @@
-package codingninja;
+package Coding_questions.codingninja;
 import java.util.Scanner;
 
 public class Armstrongnumber {
