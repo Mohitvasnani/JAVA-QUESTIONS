@@ -6,16 +6,12 @@ public class Armstrongnumber {
         Scanner sc = new Scanner(System.in);
 
         int n = sc.nextInt();
-        int arm = armstrong(n);
-        if (n == arm ) {
-            System.out.println(true);
-        } else {
-            System.out.println(false);
-        }
+        int arm = arm(n);
+        System.out.println(n == arm);
 
     }
 
-    static int armstrong(int num){
+   public static int arm(int num){
         int digit_count = Digit(num);
         int sum = 0;
         int org = num;
