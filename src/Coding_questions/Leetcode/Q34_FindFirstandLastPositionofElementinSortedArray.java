@@ -4,14 +4,15 @@ import java.util.Arrays;
 
 public class Q34_FindFirstandLastPositionofElementinSortedArray {
     public static void main(String[] args) {
-        int[] arr={5,7,7,8,8,10};
+        int[] arr={5,7,7,7 ,7,10};
         System.out.println(Arrays.toString(BruteForce(arr,8)));
+        System.out.println(Arrays.toString(searchRange(arr,7)));
     }
     static int[] searchRange(int[] nums, int target){
         int[] result = {-1,-1};
         result[0] = search(nums, target,true);
         if (result[0] != -1) {
-            result[1] = search(nums, 8, false);
+            result[1] = search(nums, target, false);
         }
         return result;
     }
