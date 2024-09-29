@@ -50,5 +50,4 @@ public class Q162_FindPeakElement {
         }
         return end;
     }
-
 }
