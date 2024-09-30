@@ -2,12 +2,12 @@ package Kunal_kushwaha.Binary_search;
 
 public class RotatedArray {
     public static void main(String[] args) {
-        int[] arr={4, 5, 6, 7, 1, 2, 3};
-        System.out.println(rotatedSearch(arr,2));
+        int[] arr={1};
+        System.out.println(rotatedSearch(arr,0));
     }
     static int rotatedSearch(int[] arr, int target){
         int pivot = findPivot(arr);
-        if (pivot == target) return pivot;
+        if (arr[pivot] == target) return pivot;
         if (pivot==-1){
             return binarysearch(arr,target,0,arr.length-1);
         } else if (target>arr[0]) {
@@ -32,6 +32,7 @@ public class RotatedArray {
     static int findPivot(int[] arr){
         int s = 0;
         int e = arr.length-1;
+        if (arr.length == 1) return 0;
         while (s<=e){
             int m = s + (e-s)/2;
             if(arr[m]>arr[m+1]){
