@@ -40,8 +40,7 @@ public class Q34_FindFirstandLastPositionofElementinSortedArray {
     static int[] BruteForce(int[] nums, int target) {
         int[] result = {-1,-1};
         for(int i=0; i<=nums.length-1; i++){
-            wdwd
-            if(nums[i]==target){
+                if(nums[i]==target){
                 result[0]=i;
                 break;
             }
