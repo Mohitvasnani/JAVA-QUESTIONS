@@ -17,6 +17,7 @@ public class Selectionsort {
             }
             int temp = arr[min];
             arr[min] = arr[i];
+
             arr[i] = temp;
         }
         return arr;
