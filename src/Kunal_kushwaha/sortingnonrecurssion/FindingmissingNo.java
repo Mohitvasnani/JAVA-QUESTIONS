@@ -1,9 +1,12 @@
 package Kunal_kushwaha.sortingnonrecurssion;
+import java.util.ArrayList;
+
 import static Kunal_kushwaha.sortingnonrecurssion.Swap.swap;
 public class FindingmissingNo {
     public static void main(String[] args) {
         int[] arr = {3,0,1};
         System.out.println(find(arr));
+
     }
     static int find(int[] arr){
         int i = 0;
@@ -20,7 +23,6 @@ public class FindingmissingNo {
                 return j;
             }
         }
-
         return arr.length;
     }
 }
