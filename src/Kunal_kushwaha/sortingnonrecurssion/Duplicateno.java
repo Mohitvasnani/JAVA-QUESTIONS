@@ -12,6 +12,9 @@ public class Duplicateno {
                 int correct = nums[i]-1;
                 if (nums[i]!=nums[correct]){
                     swap(nums, i, correct );
+
+
+
                 } else {
                     return nums[i];
                 }
