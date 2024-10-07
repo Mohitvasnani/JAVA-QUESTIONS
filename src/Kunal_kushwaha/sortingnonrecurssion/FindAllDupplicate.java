@@ -2,7 +2,6 @@ package Kunal_kushwaha.sortingnonrecurssion;
 import static Kunal_kushwaha.sortingnonrecurssion.Swap.swap;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class FindAllDupplicate {
