@@ -2,14 +2,23 @@ package Kunal_kushwaha.String_StringBuilder;
 
 public class Palindromstrings {
     public static void main(String[] args) {
-        String str = "abcdcba";
-        System.out.println(Onlystring(str));
+        String str = "abca";
+        System.out.println(Forloop(str));
 
     }
     static boolean IsPalindrome(String str){
          StringBuffer sb = new StringBuffer(str);
          sb.reverse();
         return sb.toString().equals(str);
+    }
+    static boolean Forloop(String str){
+        char[] arr = str.toCharArray();
+        for (int i = 0; i < arr.length ; i++) {
+            if (arr[i]!=arr[arr.length-1-i]){
+                return false;
+            }
+        }
+        return true;
     }
     static boolean Onlystring(String str){
         char[] arr = str.toCharArray();
