@@ -1,5 +1,5 @@
-package Kunal_kushwaha.sortingnonrecurssion;
-import static Kunal_kushwaha.sortingnonrecurssion.Swap.swap;
+package Kunal_kushwaha.CycleSort;
+import static Kunal_kushwaha.Helper.Swap.swap;
 public class Duplicateno {
     public static void main(String[] args) {
         int[] nums = {1,3,4,2,2};

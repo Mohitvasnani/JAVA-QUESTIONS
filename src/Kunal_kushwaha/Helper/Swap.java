@@ -1,4 +1,4 @@
-package Kunal_kushwaha.sortingnonrecurssion;
+package Kunal_kushwaha.Helper;
 
 public class Swap {
     public static int[] swap(int[] arr, int first, int second){

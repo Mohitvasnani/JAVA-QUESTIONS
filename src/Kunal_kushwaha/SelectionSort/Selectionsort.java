@@ -1,4 +1,4 @@
-package Kunal_kushwaha.sortingnonrecurssion;
+package Kunal_kushwaha.SelectionSort;
 
 import java.util.Arrays;
 

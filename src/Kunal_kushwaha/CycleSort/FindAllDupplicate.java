@@ -1,5 +1,5 @@
-package Kunal_kushwaha.sortingnonrecurssion;
-import static Kunal_kushwaha.sortingnonrecurssion.Swap.swap;
+package Kunal_kushwaha.CycleSort;
+import static Kunal_kushwaha.Helper.Swap.swap;
 
 import java.util.ArrayList;
 import java.util.List;

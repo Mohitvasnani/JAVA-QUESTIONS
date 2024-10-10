@@ -1,4 +1,4 @@
-package Kunal_kushwaha.sortingnonrecurssion;
+package Kunal_kushwaha.BubbleSort;
 
 import java.util.Arrays;
 

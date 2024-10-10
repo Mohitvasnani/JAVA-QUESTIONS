@@ -1,7 +1,7 @@
-package Kunal_kushwaha.sortingnonrecurssion;
+package Kunal_kushwaha.CycleSort;
 import java.util.Arrays;
 
-import static Kunal_kushwaha.sortingnonrecurssion.Swap.swap;
+import static Kunal_kushwaha.Helper.Swap.swap;
 
 public class Cyclesort {
     public static void main(String[] args) {

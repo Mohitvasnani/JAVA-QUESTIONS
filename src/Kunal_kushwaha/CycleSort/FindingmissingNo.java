@@ -1,7 +1,6 @@
-package Kunal_kushwaha.sortingnonrecurssion;
-import java.util.ArrayList;
+package Kunal_kushwaha.CycleSort;
 
-import static Kunal_kushwaha.sortingnonrecurssion.Swap.swap;
+import static Kunal_kushwaha.Helper.Swap.swap;
 public class FindingmissingNo {
     public static void main(String[] args) {
         int[] arr = {3,0,1};

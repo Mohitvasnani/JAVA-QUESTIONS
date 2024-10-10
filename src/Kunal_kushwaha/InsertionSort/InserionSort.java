@@ -1,7 +1,7 @@
-package Kunal_kushwaha.sortingnonrecurssion;
+package Kunal_kushwaha.InsertionSort;
 import java.util.Arrays;
 
-import static Kunal_kushwaha.sortingnonrecurssion.Swap.swap;
+import static Kunal_kushwaha.Helper.Swap.swap;
 public class InserionSort {
     public static void main(String[] args) {
         int[] arr = {5, 2, 9, 1, 5, 6};
