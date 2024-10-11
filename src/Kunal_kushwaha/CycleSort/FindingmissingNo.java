@@ -5,6 +5,8 @@ public class FindingmissingNo {
     public static void main(String[] args) {
         int[] arr = {3,0,1};
         System.out.println(find(arr));
+nn
+
 
     }
     static int find(int[] arr){
